@@ -1,18 +1,32 @@
 import './App.css';
-import ClassCounter from './components/ClassCounter';
-import HookCounter from './components/HookCounter';
-import HookCounterFour from './components/HookCounterFout';
-import HookCounterThree from './components/HookCounterThree';
-import HookCounterTwo from './components/HookCounterTwo';
+import ClassCounterOne from './components/Effect/ClassCounterOne';
+import ClassMouse from './components/Effect/ClassMouse';
+import HookCounterOne from './components/Effect/HookCounterOne';
+import HookMouse from './components/Effect/HookMouse';
+import IntervalClassCounter from './components/Effect/IntervalClassCounter';
+import IntervalHookCounter from './components/Effect/IntervalHookCounter';
+import MouseContainer from './components/Effect/MouseContainer';
+import ClassCounter from './components/State/ClassCounter';
+import HookCounter from './components/State/HookCounter';
+import HookCounterFour from './components/State/HookCounterFout';
+import HookCounterThree from './components/State/HookCounterThree';
+import HookCounterTwo from './components/State/HookCounterTwo';
 
 function App() {
   return (
     <div className='App'>
-      <ClassCounter />
+      {/* <ClassCounter />
       <HookCounter />
       <HookCounterTwo />
       <HookCounterThree />
-      <HookCounterFour />
+      <HookCounterFour /> */}
+      {/* <ClassCounterOne /> */}
+      {/* <HookCounterOne /> */}
+      {/* <ClassMouse /> */}
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      <IntervalClassCounter />
+      <IntervalHookCounter />
     </div>
   );
 }
